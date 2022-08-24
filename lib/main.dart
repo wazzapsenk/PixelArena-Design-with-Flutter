@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:odev3_tasarim/colors.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       localizationsDelegates: const [
-        // AppLocalizations.delegate,
+        AppLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate
@@ -57,6 +58,7 @@ class _PixelArenaState extends State<PixelArena> {
 
   @override
   Widget build(BuildContext context) {
+    var d=AppLocalizations.of(context);
     var ekranBilgisi=MediaQuery.of(context);
     final double ekranYuksekligi=ekranBilgisi.size.height;
     final double ekranGenisligi=ekranBilgisi.size.width;
@@ -118,12 +120,12 @@ class _PixelArenaState extends State<PixelArena> {
                   ),
                   TextButton(
                       onPressed: (){},
-                      child: Text("Download",style: TextStyle(color: typeColor1,fontSize: 14),),
+                      child: Text(d!.downloadButton,style: TextStyle(color: typeColor1,fontSize: 14),),
                       style: TextButton.styleFrom(backgroundColor: sideColor1),
 
                   ),
 
-                  Text("SpaceX Rocket",style: TextStyle(
+                  Text(d.spacexTitle,style: TextStyle(
                       fontSize: 22,
                       color: typeColor2,
                       fontFamily: "Raleway",
@@ -163,12 +165,12 @@ class _PixelArenaState extends State<PixelArena> {
                   ),
                   TextButton(
                     onPressed: (){},
-                    child: Text("Download",style: TextStyle(color: typeColor1,fontSize: 14),),
+                    child: Text(d.downloadButton,style: TextStyle(color: typeColor1,fontSize: 14),),
                     style: TextButton.styleFrom(backgroundColor: sideColor1),
 
                   ),
 
-                  Text("Moon In The Jar",style: TextStyle(
+                  Text(d.moonTitle,style: TextStyle(
                       fontSize: 22,
                       color: typeColor2,
                       fontFamily: "Raleway",
@@ -214,12 +216,12 @@ class _PixelArenaState extends State<PixelArena> {
                   ),
                   TextButton(
                     onPressed: (){},
-                    child: Text("Download",style: TextStyle(color: typeColor1,fontSize: 14),),
+                    child: Text(d.downloadButton,style: TextStyle(color: typeColor1,fontSize: 14),),
                     style: TextButton.styleFrom(backgroundColor: sideColor1),
 
                   ),
 
-                  Text("Cat via Purple",style: TextStyle(
+                  Text(d.catTitle,style: TextStyle(
                       fontSize: 22,
                       color: typeColor2,
                       fontFamily: "Raleway",
@@ -260,12 +262,12 @@ class _PixelArenaState extends State<PixelArena> {
                   ),
                   TextButton(
                     onPressed: (){},
-                    child: Text("Download",style: TextStyle(color: typeColor1,fontSize: 14),),
+                    child: Text(d.downloadButton,style: TextStyle(color: typeColor1,fontSize: 14),),
                     style: TextButton.styleFrom(backgroundColor: sideColor1),
 
                   ),
 
-                  Text("Deadpool Standing",style: TextStyle(
+                  Text(d.deadpoolTitle,style: TextStyle(
                       fontSize: 22,
                       color: typeColor2,
                       fontFamily: "Raleway",
