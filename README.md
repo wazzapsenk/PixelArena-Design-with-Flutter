@@ -1,6 +1,6 @@
 # Flutter - One Page Design
 
-## 2.hafta tasarım ödevi
+## Flutter Design Homework
 
 This project created for Flutter Bootcamp3 by Kaan Sahin
 Main Target: NFT Marketplace & Gallery
