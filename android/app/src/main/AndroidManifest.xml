@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.odev3_tasarim">
+    package="com.example.odev4">
    <application
-        android:label="odev3_tasarim"
+        android:label="odev4"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

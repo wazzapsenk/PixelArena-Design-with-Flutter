@@ -5,7 +5,19 @@
     "catTitle":"Cat via Purple",
     "deadpoolTitle":"Deadpool Standing",
     "heartTitle":"Red Heart",
+    "totoroTitle":"Totoro",
     "lolllipopTitle":"Lollipop Bumble",
-    "dodgersTitle":"Aggressive Dodger"
+    "dodgersTitle":"Aggressive Dodger",
+    "inspectButton":"Inspect",
+    "authorName":"Author",
+    "resolution":"Resoulution",
+    "priceText":"Price",
+    "downloadableText":"Downloadable",
+    "downloadedText":"Downloaded",
+    "nameText":"Name",
+    "freeText":"Free",
+    "downloadText":"Download",
+    "buyButton":"Buy"
+
 
 }

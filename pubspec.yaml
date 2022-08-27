@@ -1,5 +1,5 @@
-name: odev3_tasarim
-description: 2.hafta tasarım ödevi
+name: odev4
+description: 3.hafta tasarım ödevi
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -32,8 +32,8 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.17.0
-
   flutter_rating_bar: ^4.0.1
+
 
 
 
@@ -79,9 +79,8 @@ flutter:
 
 
   assets:
-    - audio/
     - images/
-    - videos/
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

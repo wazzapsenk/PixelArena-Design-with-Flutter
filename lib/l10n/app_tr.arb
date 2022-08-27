@@ -5,7 +5,21 @@
     "catTitle":"Morlu Kedi",
     "deadpoolTitle":"Ayaktaki Deadpool",
     "heartTitle":"Kırmızı Kalp",
+    "totoroTitle":"Totoro",
     "lolllipopTitle":"Sakızlı Lolipop",
-    "dodgersTitle":"Agesif Dodger"
+    "dodgersTitle":"Agresif Dodger",
+    "inspectButton":"İncele",
+    "authorName":"Sanatçı",
+    "resolutionText":"Çözünürlük",
+    "priceText":"Fiyat",
+    "downloadableText":"İndirilebilir",
+    "downloadedText":"İndirilme",
+    "nameText":"Adı",
+    "freeText":"Ücretsiz",
+    "downloadText":"İndir",
+    "buyButton":"Satın Al"
+
+
+
 
 }
