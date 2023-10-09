@@ -1,11 +1,11 @@
 # Flutter - Navigation Back Button Manipulation
 
-## Flutter Design Homework
+## Flutter UI Design Project
 
 This project created for Flutter Bootcamp3 by Kaan Sahin
 Main Target: NFT Marketplace & Gallery
 
-###Used Plugins:
+## Used Plugins:
 
 flutter_rating_bar ^4.0.1
 
